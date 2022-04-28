@@ -733,16 +733,17 @@ console.log(cars);
 // только тех, которые сейчас на распродаже.
 
 // ```js
-const getModelsOnSale = (cars) =>
-  cars
-    .filter(({ onSale }) => onSale)
-    .map(({ model }) => model)
-    .sort((a, b) => a.localeCompare(b))
-    .find((model) => model === "Fusion")
-    .toUpperCase();
+// const getModelsOnSale = (cars) =>
+//   cars
+//     .filter(({ onSale }) => onSale)
+//     .map(({ model }) => model)
+//     .sort((a, b) => a.localeCompare(b))
+//     .find((model) => model === "Fusion")
+//     .toUpperCase();
 
-console.table(getModelsOnSale(cars));
+// console.table(getModelsOnSale(cars));
 // ```
+
 
 // ## Example 12 - Цепочки методов
 
